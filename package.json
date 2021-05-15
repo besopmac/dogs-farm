@@ -1,0 +1,26 @@
+{
+  "name": "dogs-farm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/besopmac/dogs-farm.git"
+  },
+  "keywords": [],
+  "author": "Bruno N. Campos <brunosopmac@gmail.com> (https://besopmac.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/besopmac/dogs-farm/issues"
+  },
+  "homepage": "https://github.com/besopmac/dogs-farm#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "parcel": "^2.0.0-beta.2",
+    "prettier": "^2.3.0"
+  }
+}
