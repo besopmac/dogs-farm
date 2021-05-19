@@ -1,13 +1,14 @@
-import ReactDOM from "react-dom";
-import SearchParams from './SearchParams';
+import { render } from "react-dom";
+import Pet from './Pet';
 
 const App = () => {
   return (
-    <section className="wrapper">
-      <h1>Dogs Farm</h1>
-      <SearchParams />
-    </section>
+    <div>
+      <h1>Adopt Me!</h1>
+      <Pet name="Barney" animal="dog" breed="beagle" />
+      <Pet name="Nemo" animal="fish" breed="clownfish" />
+    </div>
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById("root"));
